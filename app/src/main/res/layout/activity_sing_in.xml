@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SingIn">
+  <ImageView
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:src="@drawable/logo_sticker_2"
+      android:layout_marginTop="60dp"
+      android:layout_gravity="center_horizontal"/>
+
+  <TextView
+      android:id="@+id/banner"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_gravity="center_horizontal"
+      android:text="Masuk"
+      android:layout_marginTop="20dp"
+      android:textAlignment="center"
+      android:textSize="35dp"
+      android:textColor="@color/black"
+      android:textStyle="bold"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp">
+
+      <EditText
+          android:id="@+id/email"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="Alamat Email"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/forgot"
+          android:inputType="textEmailAddress"
+          android:textSize="14sp"/>
+
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/forgot"
+          android:ems="10"
+          android:hint="Kata Sandi"
+          android:inputType="textPassword"
+          android:textSize="14sp"/>
+
+      <com.google.android.material.button.MaterialButton
+          android:id="@+id/signIn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:backgroundTint="@color/blueLogo"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+          app:cornerRadius="20dp"
+          android:text="Masuk"
+          android:textColor="#ffffff"
+          android:textSize="26sp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/register"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Tidak Memiliki Akun? Silahkan Daftar Disini"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          android:layout_marginTop="10dp"
+          android:layout_gravity="center_horizontal" />
+
+
+  </LinearLayout>
+
+
+
+  <ProgressBar
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      style="?android:attr/progressBarStyle"
+      android:id="@+id/progressBarSignIn"
+      android:visibility="gone"/>
+
+  </LinearLayout>

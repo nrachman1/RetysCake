@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cakerety">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Rety's Cake"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CakeRety">
+        <activity android:name=".StartedActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReportSucessTransactionActivity" />
+        <activity android:name=".ReportOnCartActivity" />
+        <activity android:name=".ChosseHistoryActivity" />
+        <activity android:name=".DataAllUserActivity" />
+        <activity android:name=".DetailPastryActivity" />
+        <activity android:name=".PlaceOrdeActivity" />
+        <activity android:name=".MyCart" />
+        <activity android:name=".DetailProductActivity" />
+        <activity android:name=".ChangePasswordAdmin" />
+        <activity android:name=".EditProfileAdmin" />
+        <activity android:name=".AdminProfile" />
+        <activity android:name=".InputPastry" />
+        <activity android:name=".ViewPastry" />
+        <activity android:name=".ViewCake" />
+        <activity android:name=".InputCake" />
+        <activity android:name=".RegisterAdmin" />
+        <activity android:name=".AdminDashboard" />
+        <activity android:name=".SingUp" />
+        <activity android:name=".SingIn"/>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

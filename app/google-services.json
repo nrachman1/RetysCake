@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125871296750",
+    "project_id": "cakerety",
+    "storage_bucket": "cakerety.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125871296750:android:f665ba21eee11f6816e3ff",
+        "android_client_info": {
+          "package_name": "com.example.cakerety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125871296750-tbc91debh3nmacnmakh2q19t7hb53cln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtc_vV4N0KzJv35EvZhO8st8l2CVN8sWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125871296750-tbc91debh3nmacnmakh2q19t7hb53cln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
