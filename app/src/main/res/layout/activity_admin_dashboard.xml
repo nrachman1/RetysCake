@@ -75,7 +75,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Admmin"
+                    android:text="Admin"
                     android:textColor="#fff"
                     android:textSize="10dp"/>
 
@@ -301,7 +301,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:text="Data Semua user"
+                    android:text="Data User"
                     android:textColor="#5e5e5e"
                     android:textSize="18dp"
                     android:textStyle="bold" />

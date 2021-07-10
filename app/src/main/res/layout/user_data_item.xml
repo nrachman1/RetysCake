@@ -62,9 +62,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textSize="12sp"
-                    android:text="Email :"
+                    android:text="Email               : "
                     android:layout_marginTop="8dp"
                     android:textColor="@color/black"/>
 
@@ -72,7 +71,6 @@
                     android:id="@+id/emailAllUser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textSize="12sp"
                     android:text="Email"
                     android:layout_marginTop="8dp"
@@ -88,9 +86,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textSize="12sp"
-                    android:text="Alamat :"
+                    android:text="Alamat            : "
                     android:layout_marginTop="8dp"
                     android:textColor="@color/black"/>
 
@@ -98,7 +95,6 @@
                     android:id="@+id/addressAllUser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textSize="12sp"
                     android:text="Alamat"
                     android:layout_marginTop="8dp"
@@ -114,9 +110,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textSize="12sp"
-                    android:text="No Telepon :"
+                    android:text="No Telepon    : "
                     android:layout_marginTop="8dp"
                     android:textColor="@color/black"/>
 
@@ -124,7 +119,6 @@
                     android:id="@+id/phoneNumAllUser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textSize="12sp"
                     android:text="no"
                     android:layout_marginTop="8dp"
