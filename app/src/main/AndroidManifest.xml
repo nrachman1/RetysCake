@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -39,6 +41,7 @@
         <activity android:name=".SingUp" />
         <activity android:name=".SingIn"/>
         <activity android:name=".MainActivity" />
+        <activity android:name=".utils.PdfViewerActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
