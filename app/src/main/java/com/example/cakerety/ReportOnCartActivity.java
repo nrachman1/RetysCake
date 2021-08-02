@@ -140,7 +140,7 @@ public class ReportOnCartActivity extends AppCompatActivity {
                                                 "\n" +
                                                 "<div class=\"row\">\n" +
                                                 "  <div class=\"column1\">\n" +
-                                                "    <img src='https://i0.wp.com/kopitekno.com/wp-content/uploads/2020/12/kopitekno-544.png' style='width: 170px; height: 70px;margin-top:30px;' alt='IMP Studio'>\n" +
+                                                "    <img src='https://i0.wp.com/kopitekno.com/wp-content/uploads/2020/12/kopitekno-544.png' style='width: 170px; height: 70px;margin-top:30px;' alt=''>\n" +
                                                 "  </div>\n" +
                                                 "  <div class=\"column2\">\n" +
                                                 "    <h2>CakeRety</h2>\n" +
